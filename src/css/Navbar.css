@@ -1,0 +1,78 @@
+.navbar{
+    background-color: rgb(5, 5, 70);
+}
+
+.navbar .navs {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px
+}
+
+.navbar .navs .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .navs .nav .logo img {
+    width: 110px;
+}
+
+.navbar .navs .nav .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .navs .nav ul li  {
+    display: inline-block;
+    margin: 10px 10px 0px 10px;
+}
+
+.navbar .navs .nav ul li button {
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.navbar .navs .nav ul li button:hover {
+    color: orange;
+    transition: .5s;
+}
+
+.navbar .navs .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .navs .search input{
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 5px;
+}
+
+.navbar .navs .search button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.navbar .navs .search button:hover {
+    border-color: orange;
+    color: orange;
+    transition: .5s;
+}
+
+@media only screen and (max-width: 768) {
+    
+}

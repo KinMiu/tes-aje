@@ -1,0 +1,14 @@
+.dashboard {
+    background-color: rgb(13, 13, 83);
+}
+
+.dashboard .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard .logo img {
+    margin-top: 70px;
+    width: 500px;
+}
